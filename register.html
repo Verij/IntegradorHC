@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa&family=Dancing+Script:wght@500&family=Fanwood+Text&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--NAV-->
+    <header id="tope">
+      <h1 class="logo"><a href="index.html">Tanqueria</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Conectarse</a></li>
+          <li><a href="register.html">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+      <!--Contenedor del registro-->
+
+
+    <div class="container__registro">
+<div class="container__registro__form">
+    <form class="input__registro__container">
+      <!--Nombre de usuario-->
+      <div class="filaRegistro">
+<label for="usuario">Nombre de usuario</label>
+
+      <input type="text" placeholder="usuario" name="user" id="user" />
+      </div>
+      <!--Nombre de contraseña-->
+      <div class="filaRegistro">
+<label for="contraseña">Contraseña</label>
+      <input type="text" placeholder="7 caracteres, 1 numero" name="user" id="user" /></div>
+      <!--Nombre de repetir contraseña-->
+      <div class="filaRegistro"><label for="contraseña">Repetir contraseña</label>
+      <input type="text" placeholder="7 caracteres, 1 numero" name="user" id="user" />
+      </div>
+      <!--Nombre de email-->
+      <div class="filaRegistro">
+      <label for="email">E-mail</label>
+      <input type="text" placeholder="asd@xxx.com" name="user" id="user" />
+      </div>
+      
+<!--Genero-->
+
+    		<div class="radioGenero">
+          <label for="genero"> Genero: </label>
+    				<input type="radio" name="Genero" value="Hombre" required> Hombre
+    				<input type="radio" name="Genero" value="Mujer" required> Mujer
+    		</div>
+
+<!--terminos y condiciones-->
+
+   		<div class="terminoscond">
+    				<input type="checkbox" name="Terminos"> Acepto los términos y condiciones
+    		</div>
+<!--boton-->
+            <button>Registrarme</button>
+    </form>
+      </div>
+  </body>
+</html>

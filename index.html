@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Tipo de letras (son tres en total: Anton, dancing script y comfortaa)-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa&family=Dancing+Script:wght@500&family=Fanwood+Text&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header id="tope">
+      <h1 class="logo"><a href="index.html">Tanqueria</a></h1>
+      <nav>
+        <ul>
+          <li><a href="integradorhc/index.html">Home</a></li>
+          <li><a href="login.html">Conectarse</a></li>
+          <li><a href="register.html">Registrarse</a></li>
+          <li><a href="#about">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+      </section>
+    </header>
+
+    <section class="intro">
+      <p class="intro__texto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+        accusantium.
+      </p>
+    </section>
+    <!--seccion preferencias-->
+    <section class="preferencias" id="preferencia">
+      <div class="preferencias__armamento">
+        <h3>Armamento</h3>
+      </div>
+      <div class="preferencias__blindaje"><h3>Blindaje</h3></div>
+      <div class="preferencias__movilidad"><h3>Movilidad</h3></div>
+    </section>
+
+    <!--Caracteristicas naciones-->
+    <section class="paises" id="naciones">
+      <h2 class="paises__titulo">Categoria de países</h2>
+      <div class="contenedor__paises">
+        <div class="paises__tarjeta">
+          <p>Gran Bretaña</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/churchill.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">
+              Armamento | <span>Liviano</span>
+              <p></p>
+            </li>
+            <li>
+              Blindaje |
+              <span>Delgado</span>
+            </li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>29300</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+        <div class="paises__tarjeta">
+          <p>Estados Unidos</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/sherman.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">
+              Armamento | <span>Mediano</span>
+            </li>
+            <li>Blindaje | <span>Delgado</span></li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>99500</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+        <div class="paises__tarjeta">
+          <p>Francia</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/somua-s35.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">
+              Armamento | <span>Liviano</span>
+            </li>
+            <li>Blindaje | <span>Grueso</span></li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>5800</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+        <div class="paises__tarjeta">
+          <p>Unión Soviética</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/t-34.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">Armamento | <span>Pesado</span></li>
+            <li>Blindaje | <span>Mediano</span></li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>102800</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+        <div class="paises__tarjeta">
+          <p>Italia</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/m13-40.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">
+              Armamento | <span>Liviano</span>
+            </li>
+            <li>Blindaje | <span>Delgado</span></li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>4300</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+
+        <div class="paises__tarjeta">
+          <p>Alemania</p>
+          <div class="tarjeta__imagen">
+            <img src="./imagenes/tiger-1.png" class="tanque" alt="" />
+          </div>
+          <ul>
+            <li style="background: #9fb8ad">Armamento | <span>Pesado</span></li>
+            <li>Blindaje | <span>Grueso</span></li>
+            <li style="background: #9fb8ad">
+              Cantidad total producidos | <span>46300</span>
+            </li>
+          </ul>
+          <a href="#">Productos de facción</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion Promos-->
+
+    <section class="promo" id="promos">
+      <h2>Nuestras promos</h2>
+      <div class="promo__container">
+        <div class="promo__tarjeta">
+          <div class="promo__tarjeta__imagen1">
+            <div class="promo__tarjeta__precio">
+              <span>FLAK 88</span>
+              <p>Descuento 50%</p>
+            </div>
+          </div>
+          <a href="#"><p>Comprar</p></a>
+        </div>
+        <div class="promo__tarjeta">
+          <div class="promo__tarjeta__imagen2">
+            <div class="promo__tarjeta__precio">
+              <span>PANZER V PANTHER</span>
+              <p>Descuento 30%</p>
+            </div>
+          </div>
+          <a href="#"><p>Comprar</p></a>
+        </div>
+        <div class="promo__tarjeta">
+          <div class="promo__tarjeta__imagen3">
+            <div class="promo__tarjeta__precio">
+              <span>Motor T-34</span>
+              <p>Descuento 50%</p>
+            </div>
+          </div>
+          <a href="#"><p>Comprar</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="contacto" id="contactos">
+      <div class="contacto__contenedor">
+        <div class="contacto__info">
+          <h2>Información de contacto</h2>
+          <ul>
+            <li>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span> XX X XXX XXXX</span>
+            </li>
+            <li>
+              <span><i class="fa fa-home" aria-hidden="true"></i></span>
+              <span>calle siempreviva 1462 departamento 9 </span>
+            </li>
+            <li>
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+              <span>asd@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+        <div class="contacto__form">
+          <h2>Contacto</h2>
+          <form action="">
+            <input type="text" placeholder="Nombre" />
+            <input type="phone" placeholder="Teléfono" />
+            <textarea
+              name=""
+              id=""
+              cols="38"
+              rows="14"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--Sobre nosotros-->
+
+    <section class="sobreNos" id="about">
+      <div class="sobreNos__contenedor">
+        <div class="sobreNos__contenedor__img">
+          <img src="./imagenes/sobreNosimagen.jpg" alt="" />
+        </div>
+        <div class="sobreNos__contenedor__info">
+          <h2>Sobre Nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat est
+            voluptatibus atque, incidunt molestias sit provident asperiores,
+            eligendi reprehenderit, assumenda magni optio mollitia similique
+            omnis consequatur cumque soluta iste sed reiciendis? Veniam debitis,
+            autem nostrum consequuntur nisi doloremque vitae incidunt molestiae
+            architecto impedit facilis sint repellat quisquam vero dolorem
+            dicta.
+            <br />
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            provident beatae omnis placeat quisquam doloribus delectus,
+            blanditiis quae, non accusamus assumenda porro, nisi vero
+            voluptatem.
+            <br />
+            <br />
+            <br />
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, eum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+      <div class="about__container"></div>
+      <div class="footer__container">
+        <div class="footer__fila">
+          <div class="footer__columna">
+            <h4>Compañía</h4>
+            <ul>
+              <li><a href="#">Politica de privacidad</a></li>
+            </ul>
+          </div>
+          <div class="footer__columna">
+            <h4>Secciones</h4>
+            <ul>
+              <li><a href="#tope">Tope</a></li>
+              <li><a href="#naciones">Paises</a></li>
+              <li><a href="#promos">Promos</a></li>
+              <li><a href="#contactos">Contacto</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__imagen">
+            <img src="./imagenes/tazadete.png" alt="" />
+          </div>
+        </div>
+        <div class="copyright"><p>© XXXX Tanqueria</p></div>
+      </div>
+    </footer>
+  </body>
+</html>
